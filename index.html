@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <!-- Font Awesome 5 (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <button id="modalBtn">CLICK ME!</button>
+
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="closeIcon"><i class="fas fa-times"></i></span>
+            <div class="modal-body">
+                <span class="icon"><i class="fas fa-exclamation-triangle"></i></span>
+                <div class="right-items">
+                    <h1>Ooops!</h1>
+                    <p>Something went wrong. File was not uploaded</p>
+                    <button id="okBtn">Try Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
